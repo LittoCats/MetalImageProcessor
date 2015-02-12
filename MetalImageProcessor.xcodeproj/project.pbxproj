@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A17554B31A8CD9C100112180 /* MetalImageSaturationAdjustFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = A17554B21A8CD9C100112180 /* MetalImageSaturationAdjustFilter.m */; };
+		A17554B51A8CDE9300112180 /* MetalImageFilter.metal in Sources */ = {isa = PBXBuildFile; fileRef = A17554B41A8CDE9300112180 /* MetalImageFilter.metal */; };
+		A17554B71A8CDED400112180 /* IMG_0001.JPG in Resources */ = {isa = PBXBuildFile; fileRef = A17554B61A8CDED400112180 /* IMG_0001.JPG */; };
+		A17554BA1A8CE31000112180 /* MetalImageGaussianBlurFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = A17554B91A8CE31000112180 /* MetalImageGaussianBlurFilter.m */; };
 		A1DE83FD1A8C824200417B1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DE83FC1A8C824200417B1E /* main.m */; };
 		A1DE84001A8C824200417B1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DE83FF1A8C824200417B1E /* AppDelegate.m */; };
 		A1DE84031A8C824200417B1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DE84021A8C824200417B1E /* ViewController.m */; };
 		A1DE84051A8C824200417B1E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1DE84041A8C824200417B1E /* Images.xcassets */; };
 		A1DE84081A8C824200417B1E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1DE84061A8C824200417B1E /* LaunchScreen.xib */; };
 		A1DE84141A8C824200417B1E /* MetalImageProcessorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DE84131A8C824200417B1E /* MetalImageProcessorTests.m */; };
+		A1DE84201A8C840800417B1E /* MetalImageProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DE841F1A8C840800417B1E /* MetalImageProcessor.m */; };
+		A1DE84291A8C857100417B1E /* MetalImageBaseFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DE84281A8C857100417B1E /* MetalImageBaseFilter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A17554B11A8CD9C100112180 /* MetalImageSaturationAdjustFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetalImageSaturationAdjustFilter.h; sourceTree = "<group>"; };
+		A17554B21A8CD9C100112180 /* MetalImageSaturationAdjustFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetalImageSaturationAdjustFilter.m; sourceTree = "<group>"; };
+		A17554B41A8CDE9300112180 /* MetalImageFilter.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = MetalImageFilter.metal; sourceTree = "<group>"; };
+		A17554B61A8CDED400112180 /* IMG_0001.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0001.JPG; sourceTree = "<group>"; };
+		A17554B81A8CE31000112180 /* MetalImageGaussianBlurFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetalImageGaussianBlurFilter.h; sourceTree = "<group>"; };
+		A17554B91A8CE31000112180 /* MetalImageGaussianBlurFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetalImageGaussianBlurFilter.m; sourceTree = "<group>"; };
 		A1DE83F71A8C824200417B1E /* MetalImageProcessor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalImageProcessor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1DE83FB1A8C824200417B1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1DE83FC1A8C824200417B1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -38,6 +50,11 @@
 		A1DE840D1A8C824200417B1E /* MetalImageProcessorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetalImageProcessorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1DE84121A8C824200417B1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1DE84131A8C824200417B1E /* MetalImageProcessorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetalImageProcessorTests.m; sourceTree = "<group>"; };
+		A1DE841E1A8C840800417B1E /* MetalImageProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetalImageProcessor.h; sourceTree = "<group>"; };
+		A1DE841F1A8C840800417B1E /* MetalImageProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetalImageProcessor.m; sourceTree = "<group>"; };
+		A1DE84271A8C857100417B1E /* MetalImageBaseFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetalImageBaseFilter.h; sourceTree = "<group>"; };
+		A1DE84281A8C857100417B1E /* MetalImageBaseFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetalImageBaseFilter.m; sourceTree = "<group>"; };
+		A1DE842A1A8CA58D00417B1E /* MetailImageProcessor+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MetailImageProcessor+Private.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +100,8 @@
 				A1DE83FF1A8C824200417B1E /* AppDelegate.m */,
 				A1DE84011A8C824200417B1E /* ViewController.h */,
 				A1DE84021A8C824200417B1E /* ViewController.m */,
+				A17554B61A8CDED400112180 /* IMG_0001.JPG */,
+				A1DE841D1A8C83C400417B1E /* MetalImageProcessor */,
 				A1DE84041A8C824200417B1E /* Images.xcassets */,
 				A1DE84061A8C824200417B1E /* LaunchScreen.xib */,
 				A1DE83FA1A8C824200417B1E /* Supporting Files */,
@@ -114,6 +133,23 @@
 				A1DE84121A8C824200417B1E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1DE841D1A8C83C400417B1E /* MetalImageProcessor */ = {
+			isa = PBXGroup;
+			children = (
+				A1DE841E1A8C840800417B1E /* MetalImageProcessor.h */,
+				A1DE842A1A8CA58D00417B1E /* MetailImageProcessor+Private.h */,
+				A1DE841F1A8C840800417B1E /* MetalImageProcessor.m */,
+				A1DE84271A8C857100417B1E /* MetalImageBaseFilter.h */,
+				A1DE84281A8C857100417B1E /* MetalImageBaseFilter.m */,
+				A17554B11A8CD9C100112180 /* MetalImageSaturationAdjustFilter.h */,
+				A17554B21A8CD9C100112180 /* MetalImageSaturationAdjustFilter.m */,
+				A17554B41A8CDE9300112180 /* MetalImageFilter.metal */,
+				A17554B81A8CE31000112180 /* MetalImageGaussianBlurFilter.h */,
+				A17554B91A8CE31000112180 /* MetalImageGaussianBlurFilter.m */,
+			);
+			path = MetalImageProcessor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A17554B71A8CDED400112180 /* IMG_0001.JPG in Resources */,
 				A1DE84081A8C824200417B1E /* LaunchScreen.xib in Resources */,
 				A1DE84051A8C824200417B1E /* Images.xcassets in Resources */,
 			);
@@ -217,6 +254,11 @@
 			files = (
 				A1DE84031A8C824200417B1E /* ViewController.m in Sources */,
 				A1DE84001A8C824200417B1E /* AppDelegate.m in Sources */,
+				A1DE84201A8C840800417B1E /* MetalImageProcessor.m in Sources */,
+				A1DE84291A8C857100417B1E /* MetalImageBaseFilter.m in Sources */,
+				A17554B51A8CDE9300112180 /* MetalImageFilter.metal in Sources */,
+				A17554BA1A8CE31000112180 /* MetalImageGaussianBlurFilter.m in Sources */,
+				A17554B31A8CD9C100112180 /* MetalImageSaturationAdjustFilter.m in Sources */,
 				A1DE83FD1A8C824200417B1E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,6 +444,7 @@
 				A1DE84191A8C824200417B1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1DE841A1A8C824200417B1E /* Build configuration list for PBXNativeTarget "MetalImageProcessorTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +453,7 @@
 				A1DE841C1A8C824200417B1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
